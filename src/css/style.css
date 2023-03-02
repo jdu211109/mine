@@ -5,6 +5,10 @@
 
 }
 
+html {
+   font-family: 'Roboto', sans-serif;
+}
+
 .promo {
    height: 800px;
    background: url('../img/main_bg.png') center center/cover no-repeat;
@@ -46,14 +50,10 @@
 
 .title {
    color: #f9bf3b;
-   font-family: "Roboto - Black";
    font-size: 41px;
-   font-weight: 400;
+   font-weight: 900;
    text-align: center;
    text-transform: uppercase;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: normal;
 }
 
 
@@ -64,14 +64,10 @@ h2.title {
 
 .simple .title_big {
    color: #ffffff;
-   font-family: "Roboto - Black";
    font-size: 80px;
-   font-weight: 400;
+   font-weight: 900;
    text-align: center;
    text-transform: uppercase;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: normal;
    margin-top: 21px;
 }
 
@@ -80,28 +76,18 @@ h2.title {
    padding: 0 13px;
    margin-top: 23px;
    color: #ffffff;
-   font-family: Roboto;
    font-size: 21px;
    font-weight: 300;
    font-style: normal;
    letter-spacing: normal;
    line-height: 28px;
    text-align: center;
-   font-family: "Roboto - Light";
-   font-weight: 300;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: normal;
 }
 
 
 .promo .promo_text span {
    color: #f9bf3b;
-   font-family: "Roboto - Bold";
    font-weight: 700;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: normal;
 }
 
 .promo .promo_btn {
@@ -132,9 +118,8 @@ h2.title {
 
 .more .more_text {
    color: #ffffff;
-   font-family: "Roboto - Thin";
    font-size: 15px;
-   font-weight: 400;
+   font-weight: 100;
    font-style: normal;
    letter-spacing: normal;
    text-align: center;
@@ -241,7 +226,6 @@ h2.title {
 }
 
 .optimization .optimization_text span {
-   font-family: "Roboto - Bold";
    font-weight: 700; 
 }
 
@@ -360,9 +344,8 @@ h2.title {
 .end h2 {
    margin-top: 30px;
    color: #299cbd;
-   font-family: "Roboto - Black";
    font-size: 36px;
-   font-weight: 400;
+   font-weight: 900;
    text-align: center;
    text-transform: uppercase;
 }
